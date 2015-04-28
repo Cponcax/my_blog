@@ -2,7 +2,7 @@ development:
   host: localhost
   adapter: postgresql
   encoding: unicode
-  database: cv_development
+  database: my_blog_rails_development
   pool: 5
   username: cponcax
   password: bat86
@@ -11,7 +11,7 @@ test:
   host: localhost
   adapter: postgresql
   encoding: unicode
-  database: cv_test
+  database: my_blog_rails_test
   pool: 5
   username: cponcax
   password: bat86
@@ -20,7 +20,7 @@ production:
   host: localhost
   adapter: postgresql
   encoding: unicode
-  database: cv_production
+  database: my_blog_rails_production
   pool: 5
   username: cponcax
   password: bat86
